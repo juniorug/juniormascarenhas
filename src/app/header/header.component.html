@@ -1,31 +1,43 @@
 <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="col-img">
-      <a class="navbar-brand" routerLink="/home">
-        <img src="assets/images/dog.png" class="d-inline-block align-top" alt="">
-      </a>
-    </div>
-    <div class="col-md-5 float-left collapse navbar-collapse">
+    <!-- REMOVER O BG-LIGHT -->
+    <a class="navbar-brand" routerLink="/home">
+      <img src="assets/images/dog.png" alt="juniormascarenhas.com">
+    </a>
+    <span class="navbar-text">
       <h5>JUNIORMASCARENHAS</h5>
-      <div class="navbar-desc">
-        <p>Developer, Geek and Passionate about Technology</p>
+      <p>Developer, Geek and Passionate about Technology</p>
+    </span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" 
+      data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse float-right" id="navbarNavAltMarkup" [ngbCollapse]="isCollapsed">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" routerLink="/about">About</a>
+        <a class="nav-link" routerLink="/blog">Blog</a>
+        <div class="social-media float-left">
+          <a class="nav-link" target="_blank" href="https://linkedin.com/in/edivaldo-mascarenhas-045a9479/">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a class="nav-link" target="_blank" href="https://github.com/juniorug">
+            <i class="fa fa-github"></i>
+          </a>
+          <a class="nav-link" target="_blank" href="https://twitter.com/juniormfj">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a class="nav-link" target="_blank" href="https://plus.google.com/108664534208975507204">
+            <i class="fa fa-google-plus"></i>
+          </a>
+          <a class="nav-link" target="_blank" href="https://www.facebook.com/junior.mascarenhas.58">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a class="nav-link" target="_blank" href="https://www.flickr.com/people/133274604@N04/">
+            <i class="fa fa-circle"></i><i class="fa fa-circle"></i>
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="col-md-4 float-left collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/blog">Blog</a>
-        </li>
-      </ul>
-      <span class="navbar-text">
-        Social media icons here
-      </span>
     </div>
   </nav>
 </div>
