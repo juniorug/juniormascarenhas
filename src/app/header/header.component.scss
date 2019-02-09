@@ -1,3 +1,29 @@
 .container {
     max-width: 90%;
 }
+
+h5 {
+    /* line-height: 1.41em; */
+    /* letter-spacing: normal; */
+    position: absolute;
+    top: 25px;
+    pointer-events: none;
+    font: normal normal normal 22px/1.41em raleway, sans-serif;
+}
+.width-60 {
+    width: 60%;
+}
+
+.col-img {
+    width: 80px;
+    float: left;
+    max-width: 10%;
+}
+
+.navbar-desc p {
+    width: 361px;
+    position: absolute;
+    pointer-events: none;
+    top: 90px;
+    float: left;
+}
