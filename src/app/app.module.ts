@@ -9,6 +9,12 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { BlogComponent } from './blog/blog.component';
+import { SubscribeFormComponent } from './home/subscribe-form/subscribe-form.component';
+import { BlogPreviewComponent } from './home/blog-preview/blog-preview.component';
+import { GoogleMapComponent } from './home/google-map/google-map.component';
+import { ContactFormComponent } from './home/contact-form/contact-form.component';
+import { ImpactPhraseAreaComponent } from './home/impact-phrase-area/impact-phrase-area.component';
+import { ImagesCarouselComponent } from './home/images-carousel/images-carousel.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +23,13 @@ import { BlogComponent } from './blog/blog.component';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    BlogComponent
+    BlogComponent,
+    SubscribeFormComponent,
+    BlogPreviewComponent,
+    GoogleMapComponent,
+    ContactFormComponent,
+    ImpactPhraseAreaComponent,
+    ImagesCarouselComponent
   ],
   imports: [
     BrowserModule,
