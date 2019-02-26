@@ -1,3 +1,56 @@
-<p>
-  subscribe-form works!
-</p>
+<div class="card text-center classic layout-horizontal ">
+  <div class="card-body">
+    <h5 class="card-title">Cadastre-se
+    </h5>
+
+
+
+
+    <div aria-label="Subscribe" class="collectable-info align-body-left" ng-class="main.getBodyAlignment()" role="form">
+      <!-- / name -->
+      <!-- ngIf: main.settings.generalSettings.collectName --><div class="field field--name ng-scope" ng-class="main.getInvalid('subscriberName')" ng-if="main.settings.generalSettings.collectName">
+      <div class="field__label ng-binding">Nome</div>
+      <i class="field__icon fa fa-user"></i>
+      <input aria-label="Nome" class="field__input ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern" name="subscriberName" ng-model="main.subscriberName" ng-pattern="/(?!<[^>]+>).*/gi" ng-required="main.settings.generalSettings.nameRequired" placeholder="Nome" size="1" required="required">
+      </div><!-- end ngIf: main.settings.generalSettings.collectName -->
+      <!-- / phone prefix -->
+      <!-- ngIf: main.generalSettings.collectPhone -->
+      <!-- / phone number -->
+      <!-- ngIf: main.generalSettings.collectPhone -->
+      <!-- / email -->
+      <div class="field field--email" ng-class="main.getInvalid('subscriberEmail')">
+      <div class="field__label ng-binding">Email</div>
+      <i class="field__icon fa fa-envelope-o"></i>
+      <input aria-label="Endereço de email" class="field__input ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern" name="subscriberEmail" ng-model="main.subscriberEmail" ng-pattern="/^\b[a-zA-Z0-9.!#$%&amp;’*+\/=?^_`{|}~-]{1,50}@[a-zA-Z0-9-]{1,50}(?:\.[a-zA-Z0-9-]{2,20})+$/" placeholder="Endereço de email" required="" size="1">
+      </div>
+      <!-- ngIf: main.gdpr.requireConsent && (main.getLayout() === 'layout-vertical' || main.getLayout() === 'layout-old-horizontal') -->
+      <button class="button subscribe-button" ng-click="main.subscribe()" ng-disabled="main.isPreview()">
+      <!-- ngIf: main.isInPopup() -->
+      <!-- ngIf: !main.isInPopup() -->
+        <span ng-if="!main.isInPopup()" class="ng-binding ng-scope" style="color: white;">
+          Sign Up
+        </span><!-- end ngIf: !main.isInPopup() -->
+      </button>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </div>
+</div>

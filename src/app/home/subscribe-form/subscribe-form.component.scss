@@ -1,0 +1,112 @@
+h5 {
+    color: rgba(0,0,0,1);
+    font: normal normal normal 18px/1.75em raleway,sans-serif;
+}
+
+.classic.layout-horizontal .collectable-info {
+    padding: 25px 20px 10px;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.field {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.classic.layout-horizontal .field {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.classic .field, .elegant .field, .strip .field__input, .postcard .field__input, .headline .field__input {
+    border-width: 0.4918032786885246px;
+    border-color: rgba(0,0,0,1);
+    background-color: rgba(255,255,255,0);
+    color: rgba(0,0,0,1);
+    font: normal normal normal 15px/1.875em raleway,sans-serif;
+}
+
+.classic .field {
+    border: 0;
+    border-bottom: 1px solid #999;
+    margin-bottom: 13px;
+    background: 0 0!important;
+}
+
+.layout-horizontal .field {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-flex: 1 0 100px;
+    -ms-flex: 1 0 100px;
+    flex: 1 0 100px;
+    align-items: center;
+    display: -webkit-flex;
+}
+.classic .field__icon {
+    -webkit-flex-basis: 12px;
+    -ms-flex-preferred-size: 12px;
+    flex-basis: 12px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.classic input:not(.explicit-consent-checkbox) {
+    padding: 8px;
+    border: 0;
+    background: 0 0;
+}
+.layout-horizontal .field__label {
+    display: none;
+}
+
+.field__input {
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+input {
+    background: 0 0;
+    text-overflow: ellipsis;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.classic.layout-horizontal .subscribe-button {
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    border-radius: 0;
+    background-color: rgba(0,0,0,1) !important;
+    border-color: rgba(0,0,0,1);
+    border-width: 0.4918032786885246px;
+    color: rgba(255,255,255,1);
+    font: normal normal normal 15px/1.875em raleway,sans-serif;
+    margin: 0;
+    padding: 9px 24px;
+    border-style: solid;
+    -webkit-appearance: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.subscribe-button {
+    background-color: rgba(0,0,0,1) !important;
+    border-color: rgba(0,0,0,1);
+    border-width: 0.4918032786885246px;
+    color: rgba(255,255,255,1) !important;
+    font: normal normal normal 15px/1.875em raleway,sans-serif;
+}
