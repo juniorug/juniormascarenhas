@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'subscribe-form',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SubscribeFormComponent implements OnInit {
 
-  constructor() { }
+  subscribeForm = this.fb.group({
+    name : [''],
+    email : [''],
+  });
 
+  constructor(private fb: FormBuilder) { }
+
+  
   ngOnInit() {
   }
 
+  onSubmit() {
+    // TODO: Use EventEmitter with form value
+    console.warn(this.subscribeForm.value);
+  }
 }

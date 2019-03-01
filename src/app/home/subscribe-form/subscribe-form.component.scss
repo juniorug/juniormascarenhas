@@ -110,3 +110,7 @@ input {
     color: rgba(255,255,255,1) !important;
     font: normal normal normal 15px/1.875em raleway,sans-serif;
 }
+
+input:focus, select:focus {
+    outline: none;
+}
