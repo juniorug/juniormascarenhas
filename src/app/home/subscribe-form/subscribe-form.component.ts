@@ -9,8 +9,8 @@ import { FormBuilder, FormGroup, FormControl, Validators } from '@angular/forms'
 export class SubscribeFormComponent implements OnInit {
 
   subscribeForm = this.fb.group({
-    name : [''],
-    email : [''],
+    name : ['', Validators.required],
+    email : ['', Validators.required],
   });
 
   constructor(private fb: FormBuilder) { }

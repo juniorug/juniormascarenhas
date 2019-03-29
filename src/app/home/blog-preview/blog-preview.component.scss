@@ -1,0 +1,28 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+h5 {
+    font: normal normal normal 18px/1.75em raleway,sans-serif;
+    color: #000000;
+    margin-bottom: 0px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+p {
+    font-style: italic;
+    /* font: normal normal normal 15px/1.875em raleway,sans-serif; */
+    font-size: 13px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+img {
+    vertical-align: middle;
+    float: left;
+    width: 300px;
+    height: 249px;
+}
