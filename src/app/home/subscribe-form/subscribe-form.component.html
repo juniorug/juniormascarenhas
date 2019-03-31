@@ -3,48 +3,36 @@
     <h5 class="card-title">Cadastre-se</h5>
     <form [formGroup]="subscribeForm" (ngSubmit)="onSubmit()">
       <div aria-label="Subscribe" class="form-group collectable-info align-body-left" role="form">
-        <div class="field field--name ng-scope">
-          <div class="field__label ng-binding">Nome</div>
-          <i class="field__icon fa fa-user"></i>
-          <input aria-label="Nome" formControlName="name"
-            class="field__input ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern"
-            name="subscriberName" ng-model="main.subscriberName" ng-pattern="/(?!<[^>]+>).*/gi"
-            ng-required="main.settings.generalSettings.nameRequired" placeholder="Nome" size="1" required>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="field field--name ng-scope">
+                <div class="field__label ng-binding">Nome</div>
+                <i class="field__icon fa fa-user"></i>
+                <input aria-label="Nome" formControlName="name"
+                  class="field__input ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern"
+                  name="subscriberName" ng-model="main.subscriberName" ng-pattern="/(?!<[^>]+>).*/gi"
+                  ng-required="main.settings.generalSettings.nameRequired" placeholder="Nome" size="1" required>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="field field--email">
+                <div class="field__label ng-binding">Email</div>
+                <i class="field__icon fa fa-envelope-o"></i>
+                <input aria-label="Endereço de email" formControlName="email"
+                  class="field__input ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern"
+                  ng-pattern="/^\b[a-zA-Z0-9.!#$%&amp;’*+\/=?^_`{|}~-]{1,50}@[a-zA-Z0-9-]{1,50}(?:\.[a-zA-Z0-9-]{2,20})+$/"
+                  name="subscriberEmail" placeholder="Endereço de email" required size="1">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <button class="button subscribe-button" [disabled]="!subscribeForm.valid">
+                <span class="ng-binding ng-scope" style="color: white;">Sign Up</span>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="field field--email">
-          <div class="field__label ng-binding">Email</div>
-          <i class="field__icon fa fa-envelope-o"></i>
-          <input aria-label="Endereço de email" formControlName="email"
-            class="field__input ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern"
-            ng-pattern="/^\b[a-zA-Z0-9.!#$%&amp;’*+\/=?^_`{|}~-]{1,50}@[a-zA-Z0-9-]{1,50}(?:\.[a-zA-Z0-9-]{2,20})+$/"
-            name="subscriberEmail" placeholder="Endereço de email" required size="1">
-        </div>
-        <button class="button subscribe-button" [disabled]="!subscribeForm.valid">
-          <span class="ng-binding ng-scope" style="color: white;">
-            Sign Up
-          </span>
-        </button>
       </div>
     </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>

@@ -18,6 +18,7 @@ import { GoogleMapComponent } from './home/google-map/google-map.component';
 import { ContactFormComponent } from './home/contact-form/contact-form.component';
 import { ImpactPhraseAreaComponent } from './home/impact-phrase-area/impact-phrase-area.component';
 import { ImagesCarouselComponent } from './home/images-carousel/images-carousel.component';
+import { PorfolioComponent } from './porfolio/porfolio.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ImagesCarouselComponent } from './home/images-carousel/images-carousel.
     GoogleMapComponent,
     ContactFormComponent,
     ImpactPhraseAreaComponent,
-    ImagesCarouselComponent
+    ImagesCarouselComponent,
+    PorfolioComponent
   ],
   imports: [
     BrowserModule,

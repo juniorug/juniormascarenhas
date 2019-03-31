@@ -3,6 +3,12 @@ h5 {
     font: normal normal normal 18px/1.75em raleway,sans-serif;
 }
 
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
 .classic.layout-horizontal .collectable-info {
     padding: 25px 20px 10px;
     -webkit-flex-wrap: nowrap;
@@ -101,6 +107,8 @@ input {
     -webkit-appearance: none;
     white-space: nowrap;
     cursor: pointer;
+    width: 100%;
+    margin-top: -15px;
 }
 
 .subscribe-button {
@@ -116,4 +124,10 @@ input:focus, select:focus {
 }
 .card {
     border: 0px;
+}
+.card.text-center.classic.layout-horizontal{
+    padding-top: 70px;
+}
+.col-md-5 {
+    padding-right: 0px;
 }
