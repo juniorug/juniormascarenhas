@@ -15,14 +15,6 @@ export class GoogleMapComponent implements OnInit {
   showStreetView: boolean = true;
   showMapType: boolean = true;
   label: string = "Piatã Salvador, BA, Brasil";
-  labelOptions = {
-    color: 'white',
-    fontFamily: '',
-    fontSize: '14px',
-    fontWeight: 'bold',
-    text: "Piatã Salvador, BA, Brasil",
-    marginTop: '-25px' 
-  }
   
   styles: any[] =  [  
     {  
@@ -165,7 +157,7 @@ export class GoogleMapComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
+  
   }
 
 }

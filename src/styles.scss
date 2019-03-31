@@ -7,3 +7,11 @@ $fa-font-path: "~font-awesome/fonts";
     font-family: Raleway, sans-serif; 
     color: #000000;
 }
+    @font-face {
+    font-family: 'AvenirLTStd85Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 85 Heavy'), url('/assets/fonts/AvenirLTStd-Heavy.woff') format('woff');
+    }
+    
+    

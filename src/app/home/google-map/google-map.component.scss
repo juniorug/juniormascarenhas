@@ -1,20 +1,16 @@
-
-
-
-.si-content {
-    width: 175px;
+agm-map {
+    height: 470px;
 }
 ::ng-deep .si-content-wrapper {
     padding: 15px !important;
     padding-right: 25px !important;
-}
-
-agm-map {
-    height: 470px;
 }
 ::ng-deep .gm-style-mtc span {
     margin-right: 5px;
 }
 ::ng-deep .gm-style-mtc span img {
     margin-top: -17px;
+}
+.si-content {
+    width: 175px;
 }

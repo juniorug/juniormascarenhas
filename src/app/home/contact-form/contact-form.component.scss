@@ -1,0 +1,105 @@
+.bg-blue {
+    background-color: #003862;
+    padding: 75px 0px;
+}
+h1, p {
+    color: #fff !important;
+}
+
+.social-media {
+    display: inline-block;
+}
+.nav-link{
+    float:left;
+    padding: 0.5rem 0rem;
+    margin: 0px 7px;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    
+}
+h1 {
+    line-height: 1.35em;
+    font: normal normal normal 40px/1.35em AvenirLTStd85Heavy,sans-serif;
+    text-transform: uppercase;
+}
+.auto-generated-link {
+    text-align: center;
+    line-height: 1.875em;
+    font: normal normal normal 15px/1.875em raleway,sans-serif;
+}
+.fa {
+    color: #fff;
+    font-size: 26px;
+}
+.fa-circle{
+    font: normal normal normal 16px/1 FontAwesome;
+}
+/*FORM*/
+.col-md-6  {
+    float: left;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 16px;
+}
+
+input,  textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 5px;
+    font: normal normal normal 15px/1.875em raleway,sans-serif;
+    background-color: transparent;
+    -webkit-appearance: none;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #FFFFFF;
+    margin: 0 0 5px;
+    width: 100%;
+    min-height: 40px;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+.form-control:focus {
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+textarea {
+    height: 150px;
+    resize: none;
+}
+::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+color: #fff;
+}
+
+.btn.btn-success, 
+.btn-success:not(:disabled):not(.disabled):active {
+    border: none;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000000;
+    width: 100%;
+    min-height: 45px;
+    display: block;
+    margin-bottom: 15px;
+    font: normal normal normal 15px/1.875em raleway,sans-serif;
+    padding: 5px;
+    border-radius: 0px;
+}
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
