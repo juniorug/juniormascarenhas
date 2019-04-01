@@ -1,0 +1,112 @@
+.container {
+    text-align: center;
+    width: 80%;
+}
+h2 {
+    line-height:1.2em;
+    letter-spacing: normal;
+    font: normal normal normal 22px/1.41em raleway,sans-serif;
+    color: #000000;
+}
+
+.date-and-owner {
+    position: relative;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 5px;
+}
+.date {
+    height: initial;
+    position: relative;
+    width: 100%;
+    word-wrap: break-word;
+}
+.date-and-owner p {
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    font: normal normal normal 15px/1.875em raleway,sans-serif;
+    color: #000000;
+}
+.date-and-owner p em {
+    font-style: italic;
+}
+img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+.bt_contact_div {
+    border-radius: 0;
+    background-color: rgba(0, 56, 98, 1);
+    border: solid transparent 0px;
+    cursor: pointer !important;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    height: 45px;
+    min-height: 28px;
+    width: 117px;
+    margin-top: 25px;
+    margin: 0 auto;
+}
+.bt_contact {
+    justify-content: center;
+    background-color:  rgba(0,0,0,1);
+    border: solid transparent 0px;
+    cursor: pointer !important;
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.bt_contact_div[data-disabled="false"]:hover[data-state~="desktop"] .bt_contact {
+    background-color: rgba(0, 56, 98, 0.6);
+    border-color: rgba(0, 0, 0, 1);
+}
+a:hover {
+    text-decoration: none;
+}
+
+.style-jil3zzi5label {
+    font: normal normal normal 15px/1.875em raleway,sans-serif;
+    transition: color 0.4s ease 0s;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: calc(-1 * 0px) 0px 0;
+    position: relative;
+    white-space: nowrap;
+}
+/* 
+.subscribe-button {
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    border-radius: 0;
+    background-color: rgba(0,0,0,1) !important;
+    border-color: rgba(0,0,0,1);
+    border-width: 0.4918032786885246px;
+    color: rgba(255,255,255,1);
+    font: normal normal normal 15px/1.875em raleway,sans-serif;
+    margin: 0;
+    padding: 9px 24px;
+    border-style: solid;
+    -webkit-appearance: none;
+    white-space: nowrap;
+    cursor: pointer;
+    width: 100%;
+    margin-top: -15px;
+}
+
+.subscribe-button {
+    background-color: rgba(0,0,0,1) !important;
+    border-color: rgba(0,0,0,1);
+    border-width: 0.4918032786885246px;
+    color: rgba(255,255,255,1) !important;
+    font: normal normal normal 15px/1.875em raleway,sans-serif;
+} */
