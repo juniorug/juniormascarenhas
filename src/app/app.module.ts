@@ -18,7 +18,10 @@ import { GoogleMapComponent } from './home/google-map/google-map.component';
 import { ContactFormComponent } from './home/contact-form/contact-form.component';
 import { ImpactPhraseAreaComponent } from './home/impact-phrase-area/impact-phrase-area.component';
 import { ImagesCarouselComponent } from './home/images-carousel/images-carousel.component';
-import { PorfolioComponent } from './porfolio/porfolio.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { LibsensorpyComponent } from './blog/libsensorpy/libsensorpy.component';
+import { InspiracaoComponent } from './blog/inspiracao/inspiracao.component';
+import { DoseComponent } from './blog/dose/dose.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { PorfolioComponent } from './porfolio/porfolio.component';
     ContactFormComponent,
     ImpactPhraseAreaComponent,
     ImagesCarouselComponent,
-    PorfolioComponent
+    PortfolioComponent,
+    LibsensorpyComponent,
+    InspiracaoComponent,
+    DoseComponent
   ],
   imports: [
     BrowserModule,

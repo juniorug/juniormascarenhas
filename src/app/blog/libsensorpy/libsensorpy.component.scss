@@ -42,7 +42,6 @@ h2 {
 img {
     width: 100%;
     margin-bottom: 25px;
-    cursor: pointer;
 }
 .bt_contact_div {
     border-radius: 0;
@@ -120,4 +119,8 @@ h4 {
 }
 .container.recent img {
     margin-bottom: 15px;
+}
+
+.container.recent .col {
+    cursor: pointer;
 }
