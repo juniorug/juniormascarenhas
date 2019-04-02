@@ -22,6 +22,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { LibsensorpyComponent } from './blog/libsensorpy/libsensorpy.component';
 import { InspiracaoComponent } from './blog/inspiracao/inspiracao.component';
 import { DoseComponent } from './blog/dose/dose.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { DoseComponent } from './blog/dose/dose.component';
     PortfolioComponent,
     LibsensorpyComponent,
     InspiracaoComponent,
-    DoseComponent
+    DoseComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

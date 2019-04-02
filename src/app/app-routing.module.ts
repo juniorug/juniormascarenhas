@@ -7,6 +7,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import {LibsensorpyComponent } from './blog/libsensorpy/libsensorpy.component';
 import {InspiracaoComponent } from './blog/inspiracao/inspiracao.component';
 import {DoseComponent } from './blog/dose/dose.component';
+import {NotFoundComponent } from './not-found/not-found.component'
 
 const routes: Routes = [
   {
@@ -40,6 +41,10 @@ const routes: Routes = [
   {
     path: "portfolio",
     component: PortfolioComponent
+  },
+  {
+    path: '**',
+    component: NotFoundComponent
   }
 ];
 

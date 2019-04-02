@@ -1,8 +1,8 @@
 <agm-map [latitude]="lat" [zoom]="zoom" [longitude]="lng" [styles]="styles" [fullscreenControl]='true' 
   [mapTypeControl]='true' [scrollwheel]='false'>
   <agm-marker [latitude]="lat" [longitude]="lng">
-    <agm-snazzy-info-window [isOpen]="true" [backgroundColor]="white" [placement]="top"  [maxWidth]="300" [closeWhenOthersOpen]="true" 
-    [latitude]="lat" [longitude]="lng">
+    <agm-snazzy-info-window [isOpen]="true" [maxWidth]="300" [closeWhenOthersOpen]="true" 
+    [latitude]="lat" [longitude]="lng"> <!-- [backgroundColor]="white" [placement]="top" -->
       <ng-template>
         {{label}}
       </ng-template>

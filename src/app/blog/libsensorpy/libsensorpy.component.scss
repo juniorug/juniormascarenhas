@@ -120,7 +120,13 @@ h4 {
 .container.recent img {
     margin-bottom: 15px;
 }
-
 .container.recent .col {
     cursor: pointer;
+}
+.row.fb {
+    padding-top: 15px;
+    text-align: left;
+}
+.row.fb .col {
+    padding-left: 0px;
 }
