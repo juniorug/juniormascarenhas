@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { AgmCoreModule } from '@agm/core';
 import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
+import { NgxGalleryModule } from 'ngx-gallery';
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
@@ -53,7 +54,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyB6FQyAqzMaF0i5WN9ToqFqP8_ZY-oYcos'
     }),
-    AgmSnazzyInfoWindowModule
+    AgmSnazzyInfoWindowModule,
+    NgxGalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent,
