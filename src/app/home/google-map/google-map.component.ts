@@ -153,6 +153,7 @@ export class GoogleMapComponent implements OnInit {
     ]
     }
   ]
+  
 
   constructor() { }
 
