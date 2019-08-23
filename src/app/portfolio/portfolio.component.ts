@@ -154,6 +154,61 @@ export class PortfolioComponent implements OnInit {
         small: 'assets/images/websites_mine/thumbnails/09_tn.jpg',
         medium: 'assets/images/websites_mine/09.png',
         big: 'assets/images/websites_mine/09.png'
+      },
+      {
+        small: 'assets/images/websites_mine/thumbnails/10_tn.png',
+        medium: 'assets/images/websites_mine/10.png',
+        big: 'assets/images/websites_mine/10.png'
+      },
+      {
+        small: 'assets/images/websites_mine/thumbnails/11_tn.png',
+        medium: 'assets/images/websites_mine/11.png',
+        big: 'assets/images/websites_mine/11.png'
+      },
+      {
+        small: 'assets/images/websites_mine/thumbnails/12_tn.png',
+        medium: 'assets/images/websites_mine/12.png',
+        big: 'assets/images/websites_mine/12.png'
+      },
+      {
+        small: 'assets/images/websites_mine/thumbnails/13_tn.png',
+        medium: 'assets/images/websites_mine/13.png',
+        big: 'assets/images/websites_mine/13.png'
+      },
+      {
+        small: 'assets/images/websites_mine/thumbnails/14_tn.png',
+        medium: 'assets/images/websites_mine/14.png',
+        big: 'assets/images/websites_mine/14.png'
+      },
+      {
+        small: 'assets/images/websites_mine/thumbnails/15_tn.png',
+        medium: 'assets/images/websites_mine/15.png',
+        big: 'assets/images/websites_mine/15.png'
+      },
+      {
+        small: 'assets/images/websites_mine/thumbnails/16_tn.png',
+        medium: 'assets/images/websites_mine/16.png',
+        big: 'assets/images/websites_mine/16.png'
+      },
+      {
+        small: 'assets/images/websites_mine/thumbnails/17_tn.png',
+        medium: 'assets/images/websites_mine/17.png',
+        big: 'assets/images/websites_mine/17.png'
+      },
+      {
+        small: 'assets/images/websites_mine/thumbnails/18_tn.png',
+        medium: 'assets/images/websites_mine/18.png',
+        big: 'assets/images/websites_mine/18.png'
+      },
+      {
+        small: 'assets/images/websites_mine/thumbnails/19_tn.png',
+        medium: 'assets/images/websites_mine/19.png',
+        big: 'assets/images/websites_mine/19.png'
+      },
+      {
+        small: 'assets/images/websites_mine/thumbnails/20_tn.png',
+        medium: 'assets/images/websites_mine/20.png',
+        big: 'assets/images/websites_mine/20.png'
       }
     ];
   }
